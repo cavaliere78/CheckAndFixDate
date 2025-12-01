@@ -7,4 +7,5 @@ Lo script genera nella castella selezionata un file csv con l'elenco dei mismatc
 I mismatch vengono valutati confrontado la data di creazione exif con la data di creazione estratta dal file json di google takeout oppure la data presente nel nome del file
 Lo script ha anche una funzionalita che tenta l'aggiornamento dei dati exif.
 
-
+Lo script va eseguito con:
+powershell -ExecutionPolicy Bypass -File .\CheckAndFixDate.ps1  
